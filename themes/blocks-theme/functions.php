@@ -22,9 +22,26 @@ if ( ! defined( '_blocks_theme_VERSION' ) ) {
 function _blocks_theme_setup() {
 
     add_theme_support( "editor-styles" );
-    add_editor_style( "style-editor.css" );
+    
+	add_editor_style( "style-editor.css" );
+	
 	add_theme_support( "responsive-embeds" );
+	
 	add_theme_support( "align-wide" );
+
+	add_theme_support( "editor-color-palette", array(
+		array(
+			'name' => esc_attr__( 'strong magenta', 'themeLangDomain' ),
+			'slug' => 'strong-magenta',
+			'color' => '#a156b4',
+		),
+		array(
+			'name' => esc_attr__( 'very light gray', 'themeLangDomain' ),
+			'slug' => 'very-light-gray',
+			'color' => '#eee',
+		)
+	) );
+
 	/*
 		* Make theme available for translation.
 		* Translations can be filed in the /languages/ directory.
