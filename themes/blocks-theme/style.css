@@ -719,6 +719,32 @@ textarea {
 	margin: 0 auto;
 }
 
+.alignwide {
+	margin-left: -100px;
+	margin-right: -100px;
+}
+
+.alignfull {
+	margin-left: calc(-1 * (100vw - 800px) / 2);
+	margin-right: calc(-1 * (100vw - 800px) / 2);
+}
+
+@media (max-width: 800px) {
+
+	.alignfull {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+@media (max-width: 1000px) {
+
+	.alignwide {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
 .site-main .comment-navigation,
 .site-main
 .posts-navigation,
