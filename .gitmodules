@@ -1,0 +1,6 @@
+[submodule "plugins/firstblock"]
+	path = plugins/firstblock
+	url = https://github.com/wilbertcaba/wp-blocks-course.git
+[submodule "plugins/boilerplate"]
+	path = plugins/boilerplate
+	url = https://github.com/wilbertcaba/wp-block-boilerplate.git
