@@ -1,0 +1,7 @@
+body {
+	background: #c9e5ec;
+}
+
+html :where(.wp-block) {
+	max-width: 800px;
+}
