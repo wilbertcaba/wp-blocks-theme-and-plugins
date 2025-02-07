@@ -4,3 +4,6 @@
 [submodule "plugins/boilerplate"]
 	path = plugins/boilerplate
 	url = https://github.com/wilbertcaba/wp-block-boilerplate.git
+[submodule "plugins/text-box"]
+	path = plugins/text-box
+	url = https://github.com/yourusername/text-box.git
